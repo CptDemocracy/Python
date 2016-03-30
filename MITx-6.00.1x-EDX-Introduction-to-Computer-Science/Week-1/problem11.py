@@ -8,6 +8,7 @@ prints out one of the following messages:
   * "equal" if varA is equal to varB
   * "smaller" if varA is smaller than varB
 """
+
 if type(varA) == str or type(varB) == str:
     print("string involved")
 elif varA > varB:
