@@ -1,5 +1,5 @@
 """
-Problem 7b.
+Problem 7c.
 
 Here is the code for a function applyToEach:
 
