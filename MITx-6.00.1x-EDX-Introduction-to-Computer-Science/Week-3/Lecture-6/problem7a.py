@@ -1,4 +1,6 @@
 """
+Problem 7a.
+
 Here is the code for a function applyToEach:
 
 def applyToEach(L, f):
