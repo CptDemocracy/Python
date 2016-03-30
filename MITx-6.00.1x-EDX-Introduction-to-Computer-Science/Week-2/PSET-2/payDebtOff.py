@@ -49,7 +49,7 @@ SUMMARY:
     2. Calculate interest based on unpaid balance calculated in step 1.
     3. Update balance.
         Updated monthly balance = (Monthly unpaid balance) + (Monthly interest)
-'''
+"""
 
 def CalcMonthlyIntRate(annualIntRate):
     return annualIntRate / 12.0
