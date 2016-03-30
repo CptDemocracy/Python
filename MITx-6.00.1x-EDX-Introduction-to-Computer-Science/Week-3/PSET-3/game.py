@@ -1,6 +1,6 @@
 """
 PSET-3
-Hangman Part 4: The Game/Complex Tests
+Hangman Part 4: The Game
 
 Now you will implement the function hangman, which takes one parameter 
 - the secretWord the user is to guess. This starts up an interactive 
