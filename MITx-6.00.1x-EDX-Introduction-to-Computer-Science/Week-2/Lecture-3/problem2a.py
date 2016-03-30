@@ -2,7 +2,7 @@
 In this problem you'll be given a chance to practice writing some 
 while loops.
 
-1. Convert the following into code that uses a while loop:
+Convert the following into code that uses a while loop:
 
   print 2
   print 4
