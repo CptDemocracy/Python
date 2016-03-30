@@ -30,9 +30,8 @@ Monthly unpaid balance =
 Updated balance each month = 
   (Monthly unpaid balance) + (Monthly interest rate x Monthly unpaid balance)
 
-"""
+SUMMARY:
 
-'''
     - Interest is compounded monthly according to the unpaid balance.
     - Monthly payment is fixed i.e. same for all months.
     - Monthly payment must be a multiple of $10.
