@@ -1,4 +1,6 @@
 """
+Problem 2a.
+
 In this problem you'll be given a chance to practice writing some 
 while loops.
 
