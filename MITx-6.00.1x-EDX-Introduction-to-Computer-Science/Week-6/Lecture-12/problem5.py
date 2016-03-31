@@ -23,7 +23,7 @@ def genPrimes():
 # the isPrime function is rather inefficient, below's
 # my revised version of the function:
 #
-# def isPrime(n):
+#  def isPrime(n):
 #   if n % 2 == 0:
 #     return n == 2
 #   lim = int(n ** 0.5)
@@ -31,3 +31,14 @@ def genPrimes():
 #     if n % i == 0:
 #       return False
 #   return True
+#
+# the genPrimes() generator function could be improved
+# as follows:
+#
+#   def genPrimes():
+#       yield 2
+#       n = 3
+#       while True:
+#           if isPrime(n):
+#               yield n
+#           n += 2
