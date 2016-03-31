@@ -94,8 +94,6 @@ trigger list specified in your configuration file, instead of the one we
 hard-coded for you.
 """
 
-# Enter your code for makeTrigger in this box
-
 def makeTrigger(triggerMap, triggerType, params, name):
     """
     Takes in a map of names to trigger instance, the type of trigger to make,
