@@ -1,0 +1,20 @@
+Download and save code_ProblemSet7.zip: A zip file of all the files 
+you need, including:
+
+[ref.href] https://d37djvu3ytnwxt.cloudfront.net/asset-v1:MITx+6.00.1x_6+2T2015+type@asset+block/code_ProblemSet7.zip
+
+* ps7.py, a skeleton of the solution
+
+* ps7_test.py, a test suite that will help you check your answers
+
+* triggers.txt, a sample trigger configuration file. You may modify this 
+file to try other trigger configurations
+
+* feedparser.py, a module that will retrieve and parse feeds for you
+
+* project_util.py, a module that includes a function to convert simple 
+HTML fragments to plain text
+
+* The two modules (feedparser.py and project_util.py) are necessary for 
+this lab to work, but you will not need to modify them. Feel free to 
+read through them if you'd like to understand what's going on.
