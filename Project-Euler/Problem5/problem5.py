@@ -12,12 +12,6 @@ divisible by all of the numbers from 1 to 20?
 
 EPS = 1e-6
 
-def IsDivisibleByAll(n, divs):
-    for div in divs:
-        if n % div != 0:
-            return False
-    return True
-
 def GCD(n, m, eps = EPS):
     if ((abs(n) >= 0 and abs(n) <= eps) or
         (abs(m) >= 0 and abs(m) <= eps)):
