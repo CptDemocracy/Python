@@ -48,4 +48,4 @@ prime = 2
 n = 1
 for prime in primegen:
     pass
-print "The " + str(nthprime) + " prime number is " + str(prime) + "."
+print "The %d prime number is %d." % (nthprime, prime)
