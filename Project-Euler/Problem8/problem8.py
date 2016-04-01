@@ -1,7 +1,7 @@
 """
 [ref.href] https://projecteuler.net/problem=8
 
-Largest product in a series.
+Largest product in a series
 
 The four adjacent digits in the 1000-digit number that have the greatest product are:
 
@@ -78,5 +78,5 @@ while i < biglen:
         j = 0    
     i += 1
 
-print "The greatest product of the " + str(adjcount) + " adjacent digits in the " + str(biglen) +\
-    "-digit number is " + str(maxproduct) + "."
+print "The greatest product of the " + str(adjcount) + " adjacent digits in the " \
+    + str(biglen) + "-digit number is " + str(maxproduct) + "."
