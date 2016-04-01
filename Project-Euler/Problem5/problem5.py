@@ -32,5 +32,4 @@ lowestdiv = 1
 highestdiv = 20
 divs = range(lowestdiv, highestdiv + 1)
 lcd = reduce(LCD, divs)
-print "The smallest positive number that is evenly divisible by " +\
-    ", ".join([str(div) for div in divs]) + " is " + str(lcd) + "."
+print "The smallest positive number that is evenly divisible by %s is %d." % (", ".join([str(div) for div in divs]), lcd)
