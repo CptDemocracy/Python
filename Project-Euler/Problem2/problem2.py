@@ -33,5 +33,4 @@ for fib in fgen:
         fnums.append(fib)
 sm = sum(fnums)
 
-print "The sum of even fibonacci numbers that do not exceed " +\
-      str(lim) + " is equal to " + str(sm) + "."
+print "The sum of even fibonacci numbers that do not exceed %d is equal to %d." % (lim, sm)
