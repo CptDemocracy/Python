@@ -28,5 +28,4 @@ def GetLargestPalindromeProduct(maxdigits):
 
 maxdigits = 3
 maxpali = GetLargestPalindromeProduct(maxdigits)
-print "The largest palindrome made from the product of two " +\
-      str(maxdigits) + "-digit numbers is " + str(maxpali) + "."
+print "The largest palindrome made from the product of two %d-digit numbers is %d." % (maxdigits, maxpali)
