@@ -45,4 +45,4 @@ for prime in primegen:
         break
     primesum += prime
 
-print "The sum of all primes below " + str(upperBound) + " is " + str(primesum) + "."
+print "The sum of all primes below %d is %d." % (upperBound, primesum)
