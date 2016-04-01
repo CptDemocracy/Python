@@ -27,5 +27,4 @@ squares = map(lambda x : x ** 2, nums)
 sumOfSquares = sum(squares)
 squaredSumOfNums = sum(nums) ** 2
 diff = squaredSumOfNums - sumOfSquares
-print "The difference between the sum of squares of the first "\
-      + str(naturalNumberCount) + " is " + str(diff) + "."
+print "The difference between the sum of squares of the first %d is %d." % (naturalNumberCount, diff)
