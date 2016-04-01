@@ -78,5 +78,4 @@ while i < biglen:
         j = 0    
     i += 1
 
-print "The greatest product of the " + str(adjcount) + " adjacent digits in the " \
-    + str(biglen) + "-digit number is " + str(maxproduct) + "."
+print "The greatest product of the %d adjacent digits in the %d-digit number is %d." % (adjcount, biglen, maxproduct)
