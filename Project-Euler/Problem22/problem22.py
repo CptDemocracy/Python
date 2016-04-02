@@ -20,7 +20,6 @@ names = []
 
 try:
     # read names
-
     namesFile = open(path, mode)
     readCharCount = 1
     nameChars = []
@@ -60,7 +59,6 @@ try:
     scoresum = sum(scores.values())
     print "The total sum of name scores in the file is %d." % scoresum
     
-
 except IOError as e:
     print "File \"%s\" not found." % path
     print e
