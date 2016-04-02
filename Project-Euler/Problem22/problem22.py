@@ -14,7 +14,7 @@ What is the total of all the name scores in the file?
 
 """
 
-path = "C:/Users/Home/Desktop/p022_names.txt"
+path = "p022_names.txt"
 mode = "r"
 names = []
 
