@@ -41,8 +41,8 @@ try:
     # sort names
     names.sort()
 
-    # calculate scores, store them in a hash table
-    scores = {}
+    # calculate scores, find the sum
+    scoresum = 0
     i = 1
     for name in names:
         # calculate score
@@ -52,13 +52,13 @@ try:
             # but we invoke str.upper() method as a good
             # programming practice
             score += ord(char.upper()) - ord('A') + 1
-        scores[name] = score * i
+        score = score * i
+        scoresum += score
         i += 1
     
     # sum the scores
-    scoresum = sum(scores.values())
     print "The total sum of name scores in the file is %d." % scoresum
-    
+
 except IOError as e:
     print "File \"%s\" not found." % path
     print e
