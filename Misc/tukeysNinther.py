@@ -1,5 +1,5 @@
 # Tukey's ninther.
-# Find a median within nine evenly spaced entries:
+# Find a median:
 #
 def ninther(seq):
     seq = seq[::2]
