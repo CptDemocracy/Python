@@ -11,7 +11,8 @@ SUPPORTED_OPERATORS = (     \
                             \
     {'/': operator.div,     \
      '*': operator.mul,     \
-     'mod': operator.mod},  \
+     'mod': operator.mod},  \   
+                            \
     {'^': operator.pow })   \
 
 def IsTokenOperator(token):
