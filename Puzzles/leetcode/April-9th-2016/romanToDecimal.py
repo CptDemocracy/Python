@@ -23,15 +23,17 @@ class Solution(object):
                   next = currval
               else:
                   next = nums[s[i + 1].upper()]
+              value += currval
+              
               if currval < next:
-                  value -= currval
-                  while (i > 0 
+                  j = i + 1
+                  while (j > 0 
                          and currval < next 
-                         and currval > nums[s[i - 1].upper()]):
-                      value -= currval
-              else:
-                  value += currval
+                         and currval >= nums[s[j - 1].upper()]):
+                      currval = nums[s[j - 1].upper()]
+                      value -= currval * 2
+                      j -= 1
               i += 1
           return value
         except KeyError:
-          raise ValueError("roman numeral is in the wrong format")
+          raise ValueError("roman numeral was in invalid format")
