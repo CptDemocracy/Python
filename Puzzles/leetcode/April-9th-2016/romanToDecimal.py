@@ -13,22 +13,25 @@ class Solution(object):
         nums = { 'I': 1,  'V': 5,   'X': 10,
                  'L': 50, 'C': 100, 'D': 500, 
                  'M': 1000 }
-        ln = len(s)
-        value = 0
-        i = 0
-        while i < ln:
-            currval = nums[s[i].upper()]
-            if i == ln - 1:
-                next = currval
-            else:
-                next = nums[s[i + 1].upper()]
-            if currval < next:
-                value -= currval
-                while (i > 0 
-                       and currval < next 
-                       and currval > nums[s[i - 1].upper()]):
-                    value -= currval
-            else:
-                value += currval
-            i += 1
-        return value
+        try:
+          ln = len(s)
+          value = 0
+          i = 0
+          while i < ln:
+              currval = nums[s[i].upper()]
+              if i == ln - 1:
+                  next = currval
+              else:
+                  next = nums[s[i + 1].upper()]
+              if currval < next:
+                  value -= currval
+                  while (i > 0 
+                         and currval < next 
+                         and currval > nums[s[i - 1].upper()]):
+                      value -= currval
+              else:
+                  value += currval
+              i += 1
+          return value
+        except KeyError:
+          raise ValueError("roman numeral is in the wrong format")
