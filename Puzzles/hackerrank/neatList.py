@@ -24,5 +24,5 @@ try:
         args = [int(arg) for arg in cmdargs[1:]]
         cmds[cmd](L, *args)
         i += 1
-except ValueError as e:
+except (KeyError, ValueError) as e:
     raise e
