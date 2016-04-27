@@ -1,4 +1,6 @@
-Striped Words
+Problem name: Striped Words
+
+Problem description at:
 [ref.href] checkio.org/mission/striped-words
 
 Problem's author: bryukh
