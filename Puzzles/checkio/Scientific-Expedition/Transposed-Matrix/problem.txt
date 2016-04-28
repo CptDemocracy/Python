@@ -1,0 +1,7 @@
+Problem name: Transposed Matrix
+
+Problem description at:
+[ref.href] checkio.org/mission/matrix-transpose
+
+Problem's author: artemrudenko
+[ref.href] checkio.org/user/artemrudenko
