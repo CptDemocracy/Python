@@ -1,0 +1,7 @@
+Problem name: The Angles of a Triangle
+
+Problem description at:
+[ref.href] checkio.org/mission/triangle-angles
+
+Problem's author: bryukh
+[ref.href] checkio.org/user/bryukh
