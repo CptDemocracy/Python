@@ -1,0 +1,7 @@
+Problem name: Weekend Counter
+
+Problem description at:
+[ref.href] checkio.org/mission/weekend-counter
+
+Problem's author: bryukh
+[ref.href] checkio.org/user/bryukh
