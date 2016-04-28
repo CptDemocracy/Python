@@ -1,3 +1,9 @@
+ON        = '-'
+OFF       = '.'
+ON_BIT    = '1'
+OFF_BIT   = '0'
+SEPARATOR = ':'
+
 def dec_to_bin(num):
     bits = []
     while True:
@@ -8,13 +14,7 @@ def dec_to_bin(num):
     bits.reverse()
     return "".join(bits)
 
-ON      = '-'
-OFF     = '.'
-ON_BIT  = '1'
-OFF_BIT = '0'
-
-def checkio(timestring):
-    SEPARATOR = ':'
+def checkio(timestring):    
     hh, mm, ss = timestring.split(SEPARATOR)
     return (' ' + SEPARATOR + ' ').join([hour_to_morse(hh), minute_to_morse(mm), second_to_morse(ss)])    
 
