@@ -1,0 +1,7 @@
+Problem name: Morse Clock
+
+Problem description at:
+[ref.href] checkio.org/mission/morse-clock
+
+Problem's author: suwanditan
+[ref.href] checkio.org/user/suwanditan
