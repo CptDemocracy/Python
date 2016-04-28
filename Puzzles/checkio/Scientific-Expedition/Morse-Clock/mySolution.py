@@ -30,10 +30,10 @@ def hour_to_morse(hour):
 def timeval_to_morse(timeval, firstDigitMaxBits, secondDigitMaxBits):
     if len(timeval) < 2:
         digit_one_bits = '0'.zfill(firstDigitMaxBits) 
-        digit_two_bits  = dec_to_bin(int(timeval[0])).zfill(secondDigitMaxBits)
+        digit_two_bits = dec_to_bin(int(timeval[0])).zfill(secondDigitMaxBits)
     else:    
         digit_one_bits = dec_to_bin(int(timeval[0])).zfill(firstDigitMaxBits)
-        digit_two_bits  = dec_to_bin(int(timeval[1])).zfill(secondDigitMaxBits)
+        digit_two_bits = dec_to_bin(int(timeval[1])).zfill(secondDigitMaxBits)
     digit_one_morse = []
     digit_two_morse = []
     for i in range(firstDigitMaxBits):
