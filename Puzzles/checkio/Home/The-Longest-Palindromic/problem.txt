@@ -1,0 +1,7 @@
+Problem name: The Longest Palindrome
+
+Problem description at:
+[ref.href] checkio.org/mission/the-longest-palindromic
+
+Problem's author: oduvan
+[ref.href] checkio.org/user/oduvan
