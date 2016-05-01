@@ -1,5 +1,5 @@
 
-# The original solution was as follows:
+# My original solution was as follows:
 #
 # def checkio(data):    
 #     nonUniqueNumsList = []
