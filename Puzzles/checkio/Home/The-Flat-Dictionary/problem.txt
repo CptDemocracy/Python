@@ -1,0 +1,7 @@
+Problem name: The flat dictionary
+
+Problem description at:
+[ref.href] checkio.org/mission/flatten-dict
+
+Problem's author: bryukh
+[ref.href] checkio.org/user/bryukh
