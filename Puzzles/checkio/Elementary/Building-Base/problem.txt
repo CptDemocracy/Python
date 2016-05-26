@@ -1,0 +1,7 @@
+Problem name: Building Base
+
+Problem description at:
+[ref.href] checkio.org/mission/building-base/
+
+Problem's author: bryukh
+[ref.href] checkio.org/user/bryukh
