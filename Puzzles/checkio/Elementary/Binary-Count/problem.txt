@@ -1,0 +1,7 @@
+Problem name: Binary Count
+
+Problem description at:
+[ref.href] checkio.org/mission/binary-count
+
+Problem's author: bryukh
+[ref.href] checkio.org/user/bryukh
