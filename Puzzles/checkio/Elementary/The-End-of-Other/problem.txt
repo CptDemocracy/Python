@@ -1,0 +1,7 @@
+Problem name: The End of Other
+
+Problem description at:
+[ref.href] checkio.org/mission/end-of-other
+
+Problem's author: bryukh
+[ref.href] checkio.org/user/bryukh
