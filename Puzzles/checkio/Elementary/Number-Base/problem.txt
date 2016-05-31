@@ -1,0 +1,7 @@
+Problem name: Number Base
+
+Problem description at:
+[ref.href] checkio.org/mission/number-radix/
+
+Problem's author: bryukh
+[ref.href] checkio.org/user/bryukh
