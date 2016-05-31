@@ -1,0 +1,7 @@
+Problem name: Digits Multiplication
+
+Problem description at:
+[ref.href] checkio.org/mission/digits-multiplication/
+
+Problem's author: bryukh
+[ref.href] checkio.org/user/bryukh
