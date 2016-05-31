@@ -1,0 +1,7 @@
+Problem name: Days Between
+
+Problem description at:
+[ref.href] checkio.org/mission/days-diff/
+
+Problem's author: bryukh
+[ref.href] checkio.org/user/bryukh
