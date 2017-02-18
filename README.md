@@ -1,4 +1,2 @@
-# Python 2.7
-Colts, Monties and Dirty Harries
-
-Your help is needed! If you spot a bug or a security-vulnerable piece of code, please feel free to report it at profit234@gmail.com Thank you!
+# MIT6.001.x
+This repository includes my work on the 2015 iteration of the EDX MIT 6.00.1x course teaching Python 2.7, as well as some of my other work in Python.
